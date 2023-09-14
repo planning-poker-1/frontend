@@ -9,6 +9,7 @@ function App() {
                 <Route path="/">
                     <Route path="login" element={<LoginPage login="1" />} />
                     <Route path="room" element={<LoginPage />} />
+                    <Route path="" element={<Navigate to="/login" />} />
                     <Route path="*" element={<Navigate to="/login" />} />
                 </Route>
             </Routes>
