@@ -1,2 +1,28 @@
 .main {
+    position: absolute;
+    width: 100svw;
+    padding: .5vw;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 .1vw .5vw black;
+    box-sizing: border-box;
+    background: white;
+}
+
+.main img {
+    width: 10svw;
+}
+
+.components {
+    width: 85svw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.components span {
+    font-size: 1.2vw;
+    color: gray;
+    font-weight: bold;
+    margin: 0 2vw;
 }

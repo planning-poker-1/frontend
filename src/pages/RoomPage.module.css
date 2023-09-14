@@ -1,2 +1,19 @@
 .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95svh;
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100svw;
+}
+
+.estimate_bar {
+    position: absolute;
+    width: 100svw;
+    bottom: 0;
+    left: 0;
 }

@@ -3,13 +3,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .card {
     width: 4vw;
     height: 6vw;
-    background: gray;
+    background: gray no-repeat center;
     border-radius: .5vw;
+    transition: .2s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: .2s;
 }
 
 .main span {
