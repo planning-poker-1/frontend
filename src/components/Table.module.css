@@ -1,0 +1,22 @@
+.main {
+    width: 50vw;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top {
+}
+
+.left_right {
+}
+
+.table {
+    width: 40vw;
+}
+
+.bottom {
+}
