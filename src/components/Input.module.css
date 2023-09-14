@@ -1,0 +1,11 @@
+.main {
+    border: gray solid .1vw;
+    border-radius: .5vw;
+    padding: .5vw;
+    font-size: 1vw;
+    margin: .5vw 0;
+}
+
+.main:focus {
+    outline: none;
+}

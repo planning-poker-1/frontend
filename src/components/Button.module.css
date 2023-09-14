@@ -1,0 +1,20 @@
+.main {
+    background: #3197BC;
+    font-size: 1vw;
+    border: 0;
+    border-radius: .5vw;
+    padding: .6vw 2vw;
+    color: white;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.main:hover {
+    background: blue;
+    transition: .3s;
+}
+
+.main:active {
+    transform: scale(1.1);
+    transition: .2s;
+}

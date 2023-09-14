@@ -1,0 +1,18 @@
+.parent {
+    height: 100svh;
+}
+
+.top {
+    padding: 1vw;
+}
+
+.top img {
+    width: 15vw;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80svh;
+}

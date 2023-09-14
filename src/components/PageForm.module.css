@@ -1,0 +1,26 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30vw;
+}
+
+.main span:nth-child(1) {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.main span:nth-child(2) {
+    font-size: 1vw;
+    color: gray;
+    margin: .7vw 0;
+}
+
+.main Button {
+    width: 100%;
+}
+
+.main Input {
+    width: 95%;
+}
